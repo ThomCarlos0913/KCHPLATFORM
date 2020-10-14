@@ -1,0 +1,398 @@
+.banner {
+  margin-top: 20px;
+  padding: 5px;
+  height: 220px;
+  border-radius: 10px;
+  background-color: #FD9E25;
+  box-shadow: 0px 0px 5px 0px rgba(253, 158, 37, 0.5);
+}
+
+.banner .banner-img {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .banner .banner-img {
+    display: block;
+  }
+}
+
+.banner .banner-info {
+  padding: 10px 20px;
+}
+
+.banner .banner-info h1,
+.banner .banner-info h2 {
+  margin: 0;
+}
+
+.banner .banner-info h1 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .banner .banner-info h1 {
+    font-size: 2em;
+  }
+}
+
+.banner .banner-info h2 {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .banner .banner-info h2 {
+    font-size: 1.2em;
+  }
+}
+
+.banner .banner-info h3 {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .banner .banner-info h3 {
+    font-size: 1em;
+  }
+}
+
+.banner .banner-info h3 span {
+  color: #165476;
+}
+
+.banner .banner-info h3 .info {
+  color: white;
+}
+
+.panel-container {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.panel-column {
+  padding: 0;
+}
+
+.dashboard-panel {
+  padding: 30px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-panel .panel-header {
+  color: #39424E;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+.dashboard-panel .no-data {
+  margin-top: -40px;
+}
+
+.dashboard-panel .no-data p {
+  color: #CBCBCB;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dashboard-panel .modal .modal-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.work-panel {
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1000px) {
+  .work-panel {
+    height: 500px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+.task-container {
+  margin: 15px 0px;
+  padding: 10px 30px;
+  border: 1px solid #8F8F8F;
+  border-radius: 10px;
+}
+
+.task-container .task-header {
+  color: #39424E;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 !important;
+}
+
+.task-container p {
+  color: #8F8F8F;
+  margin: 0;
+  font-size: 0.7em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.task-container .task-thumbnail {
+  margin-left: 15px;
+}
+
+.task-container .task-ellipsis:hover {
+  cursor: pointer;
+}
+
+.dropdown-item {
+  color: #39424E;
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(253, 158, 37, 0.2);
+}
+
+.task-back {
+  display: inline-block;
+  margin: 30px 0px 20px 20px;
+  font-size: 1.2em;
+  color: #39424E;
+  transition: 0.5s color;
+}
+
+.task-back .back-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.task-main-icon {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .task-main-icon {
+    display: block;
+  }
+}
+
+.task-back:hover {
+  color: #FD9E25;
+  text-decoration: none;
+}
+
+.task-panel,
+.submit-panel {
+  padding: 15px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1000px) {
+  .task-panel,
+  .submit-panel {
+    padding: 30px;
+  }
+}
+
+.task-row {
+  margin-bottom: 100px;
+}
+
+.task-panel {
+  margin-bottom: 15px;
+}
+
+.task-panel .task-header {
+  color: #FE7501;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .task-panel .task-header {
+    font-size: 2em;
+  }
+}
+
+.task-panel .task-giver-due,
+.task-panel .task-assigned-report {
+  color: #808699;
+  font-size: 0.6em;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 1000px) {
+  .task-panel .task-giver-due,
+  .task-panel .task-assigned-report {
+    font-size: 0.8em;
+  }
+}
+
+.task-panel .task-assigned-report {
+  margin-top: 10px;
+}
+
+.task-panel .report {
+  font-weight: 600;
+  color: #39424E;
+}
+
+.task-panel .report:hover {
+  text-decoration: none;
+}
+
+.task-panel .task-details {
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  .task-panel .task-details {
+    margin-left: 10px;
+  }
+}
+
+.task-panel .task-grade-due {
+  margin-left: 5px;
+}
+
+.task-panel .task-grade-due p {
+  margin-bottom: 5px;
+  color: #39424E;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.task-panel .task-description {
+  padding: 20px 5px;
+}
+
+.task-panel .task-description p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.task-panel .task-description .description-header {
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #39424E;
+}
+
+.task-panel .task-description .description {
+  color: #39424E;
+  font-size: 0.9em;
+}
+
+.task-panel .divider-1 {
+  background-color: #FD9E25;
+  height: 1px;
+}
+
+.task-panel .divider-2 {
+  background-color: #C2C2C2;
+  height: 1px;
+}
+
+.submit-panel {
+  padding: 20px;
+  height: 300px;
+}
+
+.submit-panel .panel-header {
+  color: #39424E;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.submit-panel .no-work {
+  color: #CBCBCB;
+}
+
+.submit-panel .no-work .no-work-icon {
+  text-align: center;
+  font-size: 5em;
+}
+
+.submit-panel .no-work p {
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.submit-panel .custom-file {
+  margin-bottom: 10px;
+}
+
+.submit-panel #file-label {
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.submit-panel .card {
+  color: #39424E;
+}
+
+.submit-panel .card .file-name {
+  margin-left: 5px;
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.not-found {
+  height: 500px;
+}
+
+.not-found .not-found-header {
+  margin-top: 30px;
+  color: #39424E;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.entry {
+  margin: 15px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #8F8F8F;
+  font-family: "Open Sans", sans-serif;
+}
+
+.entry p {
+  margin: 0;
+}
+
+.entry .message {
+  color: #39424E;
+  font-size: 1em;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.entry .date {
+  color: #8F8F8F;
+  font-size: 0.7em;
+}
+

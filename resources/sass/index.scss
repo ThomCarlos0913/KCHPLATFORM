@@ -1,0 +1,137 @@
+/**********************************
+Programmed By: John Thomas Carlos
+Copyright © 2020
+**********************************/
+@import 'main.scss';
+
+$colors: (
+    'main': #FC8922,
+    'background': #F9F9FA,
+    'text-alt': #707070,
+    'text': #39424E
+);
+
+body {
+    padding: 30px 15px;
+    background-color: map-get($map: $colors, $key: 'background');
+    color: map-get($map: $colors, $key: 'text');
+
+    @include desktop1000 {
+        padding: 30px 100px;
+        background-image: url('/assets/co-working.svg');
+        background-position: center right 100px;
+        background-size: 400px;
+        background-repeat:no-repeat;
+    }
+
+    @include desktop1200 {
+        background-size: 600px;
+    }
+
+    @include desktop1300 {
+        background-size: 650px;
+    }
+}
+
+.main-container {
+    height: 100%;
+}
+
+// Navigation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.navigation {
+    .nav-logo {
+        width: 150px;
+
+        @include desktop1000 {
+            width: 250px;
+        }
+    }
+
+    .nav-web {
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        
+        a {
+            color: map-get($map: $colors, $key: 'main');
+        }
+
+        .nav-web-link {
+            display: none;
+            @include desktop1000 {
+                display: inline-block;
+            }
+        }
+
+        i {
+            font-size: 1.5em;
+            margin-left: 10px;
+
+            @include desktop1000 {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+// Navigation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+main {
+    flex-grow: 1;
+    padding-top: 50px;
+
+    .top {
+        margin-bottom: 30px;
+
+        .main-header {
+            font-size: 1em;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            @include desktop1000 {
+                width: 500px;
+            }
+        }
+    }
+    
+    .links {
+
+        .link-container {
+            margin-bottom: 50px;
+        }
+
+        .link-header {
+            font-size: 1.5em;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            color: map-get($map: $colors, $key: 'main')
+        }
+
+        p {
+            margin: 20px 0px;
+        }
+    }
+}
+
+// Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+footer {
+    .footer-p {
+        margin: 0;
+        font-size: .5em;
+        color: map-get($map: $colors, $key: 'text-alt');
+
+        @include desktop1000 {
+            font-size: .8em;
+        }
+    }
+
+    .links {
+        font-size: 1em;
+        margin: 0px 5px;
+        color: map-get($map: $colors, $key: 'text');
+
+        @include desktop1000 {
+            margin: 0px 10px;
+        }
+    }
+}

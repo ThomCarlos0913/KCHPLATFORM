@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265.949" height="265.949" viewBox="0 0 265.949 265.949">
+  <defs>
+    <filter id="user-circle" x="0" y="0" width="265.949" height="265.949" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_79" data-name="Group 79" transform="translate(-1584 -506.524)">
+    <path id="Path_80" data-name="Path 80" d="M124,0c68.483,0,124,55.413,124,123.769s-55.643,123.7-124.126,123.7A123.721,123.721,0,0,1,0,123.769C0,55.413,55.517,0,124,0Z" transform="translate(1593 513)" fill="#fd9e25"/>
+    <g transform="matrix(1, 0, 0, 1, 1584, 506.52)" filter="url(#user-circle)">
+      <path id="user-circle-2" data-name="user-circle" d="M123.975,55.99a47.99,47.99,0,1,0,47.99,47.99A48,48,0,0,0,123.975,55.99Zm0,71.985a24,24,0,1,1,24-24A24,24,0,0,1,123.975,127.975ZM123.975,8A124.009,124.009,0,1,0,247.949,131.975,123.953,123.953,0,0,0,123.975,8Zm0,223.954a99.41,99.41,0,0,1-65.037-24.2,43.066,43.066,0,0,1,34.793-19.746,101.7,101.7,0,0,0,30.244,4.8,100.122,100.122,0,0,0,30.244-4.8,43.192,43.192,0,0,1,34.793,19.746A99.41,99.41,0,0,1,123.975,231.954Zm81.333-42.041a66.308,66.308,0,0,0-52.539-25.945c-5.1,0-13,4.8-28.794,4.8-15.747,0-23.7-4.8-28.794-4.8a66.455,66.455,0,0,0-52.539,25.945,99.929,99.929,0,1,1,181.313-57.938A99.263,99.263,0,0,1,205.308,189.913Z" transform="translate(9 -2)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

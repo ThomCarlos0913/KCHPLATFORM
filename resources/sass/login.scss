@@ -1,0 +1,187 @@
+/**********************************
+Programmed By: John Thomas Carlos
+Copyright © 2020
+**********************************/
+@import 'main.scss';
+
+body {
+    @include desktop1000 {
+        background-image: 
+            url('/assets/top-right.svg'),
+            url('/assets/bottom-left.svg');
+        background-position: top right, bottom left;
+        background-repeat:no-repeat;
+        align-items: center;
+    }
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.login-container {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba($color: #000000, $alpha: 0.3);
+
+    @include desktop1000 {
+        height: 550px;
+        width: 1000px;
+    }
+    
+    .login-row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .login-form-container {
+        padding: 30px 0px;
+        text-align: center;
+
+        @include desktop1000 {
+            padding: 30px;
+        }
+
+        .kch-logo {
+            margin: auto;
+            display: block;
+            width: 50%;
+        }
+
+        .form-header {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 0px 5px 10px 5px;
+            font-size: 1.5em;
+            font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
+            color: map-get($map: $colors, $key: 'text');
+            border-bottom: 3px solid map-get($map: $colors, $key: 'dark');
+        }
+
+        .login-form {
+            .form-inputs {
+                padding: 0px 30px;
+            }
+
+            .portal-input-container {
+                margin-top: 20px;
+                font-size: 1em;
+                padding: 10px 20px;
+                background-color: #EAEAEA;
+    
+                input {
+                    display: inline-block;
+                    background-color: inherit;
+                    margin-left: 10px;
+                    width: 85%;
+                    border: 0;
+                }
+                
+            }
+
+            .portal-input::placeholder {
+                opacity: 1;
+                color: map-get($map: $colors, $key: 'text');
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .login-options {
+                margin-top: 20px;
+                font-size: .8em;
+                font-family: 'Motserrat', sans-serif;
+                color: map-get($map: $colors, $key: 'text');
+    
+                .forgot {
+                    color: map-get($map: $colors, $key: 'text');
+                }
+            }
+        }
+
+        .login-footer {
+            display: inline-block;
+            margin: 30px 20px 0px 20px;
+            font-size: .8em;
+            color: map-get($map: $colors, $key: 'text-light');
+
+            @include desktop1000 {
+                font-size: 1em;
+                position: absolute;
+                bottom: 20px;
+                width: 80%;
+            }
+
+            .last-footer {
+                margin-right: 0px;
+            }
+
+            a {
+                display: inline-block;
+                margin: 0px 5px;
+                color: map-get($map: $colors, $key: 'text-light');
+
+                @include desktop1000 {
+                    margin: 0px 10px;
+                }
+            }
+        }
+    }
+
+    .login-board {
+        height: 550px;
+        padding: 30px;
+        text-align: center;
+        background-color: map-get($map: $colors, $key: 'background');
+
+        .login-board-container {
+            width: 100%;
+            background-color: red;
+        }
+
+        .board-header {
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+
+        .board-p {
+            text-align: center;
+            margin: 20px 0px 0px 0px;
+        }
+
+        .board-image {
+            width: 80%;
+        }
+
+        .social-links {
+            .social-link-header {
+                margin: 0;
+                font-weight: 700;
+                font-size: 1em;
+            }
+
+            .links {
+                display: inline-block;
+                margin: 5px 15px;
+                font-size: 2em;
+                color: white;
+            }
+        }
+    }
+}
+
+.submit-button {
+    margin-top: 40px;
+    padding: 10px 30px;
+
+    .submit-icon {
+        font-size: 1em !important;
+    }
+}

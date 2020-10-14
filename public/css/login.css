@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;
+
+0,700;1,500&family=Open+Sans:wght@400;600&display=swap);@charset "UTF-8";
+
+/**********************************
+Programmed By: John Thomas Carlos
+Copyright © 2020
+**********************************/
+
+/***************************************
+Programmed By: John Thomas Carlos
+Copyright © 2020
+***************************************/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.intern-nav {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1000px) {
+  .intern-nav {
+    padding: 10px 100px;
+  }
+
+  .intern-nav #navigation-list {
+    margin-left: 20px;
+  }
+}
+
+.intern-nav .nav-item {
+  margin: 0px 10px;
+}
+
+.intern-nav .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #707070;
+}
+
+.intern-nav .active-nav-link {
+  border-bottom: 3px solid #FC8922;
+  color: #FC8922 !important;
+}
+
+.intern-nav .intern {
+  display: inline-block;
+  color: #FC8922;
+  margin: 0px 10px 0px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.button {
+  display: block;
+  padding: 10px 30px;
+  transition: 0.5s;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button .button-icon {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.button-main {
+  color: white;
+  background-image: linear-gradient(to right, #FC8922, #FEAF27);
+  box-shadow: 0px 0px 5px 0px #FD9E25;
+  transition: 0.5s;
+}
+
+.button-main:hover {
+  box-shadow: 0px 0px 20px 0px #FD9E25;
+}
+
+.form-button {
+  margin-top: 50px;
+  width: 100%;
+  border: 0;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-image: url("/assets/top-right.svg"), url("/assets/bottom-left.svg");
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.login-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1000px) {
+  .login-container {
+    height: 550px;
+    width: 1000px;
+  }
+}
+
+.login-container .login-row {
+  padding: 0;
+  margin: 0;
+}
+
+.login-container .login-form-container {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .login-container .login-form-container {
+    padding: 30px;
+  }
+}
+
+.login-container .login-form-container .kch-logo {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+.login-container .login-form-container .form-header {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 0px 5px 10px 5px;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #39424E;
+  border-bottom: 3px solid #FE7501;
+}
+
+.login-container .login-form-container .login-form .form-inputs {
+  padding: 0px 30px;
+}
+
+.login-container .login-form-container .login-form .portal-input-container {
+  margin-top: 20px;
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: #EAEAEA;
+}
+
+.login-container .login-form-container .login-form .portal-input-container input {
+  display: inline-block;
+  background-color: inherit;
+  margin-left: 10px;
+  width: 85%;
+  border: 0;
+}
+
+.login-container .login-form-container .login-form .portal-input::-moz-placeholder {
+  opacity: 1;
+  color: #39424E;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-container .login-form-container .login-form .portal-input:-ms-input-placeholder {
+  opacity: 1;
+  color: #39424E;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-container .login-form-container .login-form .portal-input::-ms-input-placeholder {
+  opacity: 1;
+  color: #39424E;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-container .login-form-container .login-form .portal-input::placeholder {
+  opacity: 1;
+  color: #39424E;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-container .login-form-container .login-form .login-options {
+  margin-top: 20px;
+  font-size: 0.8em;
+  font-family: "Motserrat", sans-serif;
+  color: #39424E;
+}
+
+.login-container .login-form-container .login-form .login-options .forgot {
+  color: #39424E;
+}
+
+.login-container .login-form-container .login-footer {
+  display: inline-block;
+  margin: 30px 20px 0px 20px;
+  font-size: 0.8em;
+  color: #A8A8A8;
+}
+
+@media (min-width: 1000px) {
+  .login-container .login-form-container .login-footer {
+    font-size: 1em;
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+  }
+}
+
+.login-container .login-form-container .login-footer .last-footer {
+  margin-right: 0px;
+}
+
+.login-container .login-form-container .login-footer a {
+  display: inline-block;
+  margin: 0px 5px;
+  color: #A8A8A8;
+}
+
+@media (min-width: 1000px) {
+  .login-container .login-form-container .login-footer a {
+    margin: 0px 10px;
+  }
+}
+
+.login-container .login-board {
+  height: 550px;
+  padding: 30px;
+  text-align: center;
+  background-color: #FD9E25;
+}
+
+.login-container .login-board .login-board-container {
+  width: 100%;
+  background-color: red;
+}
+
+.login-container .login-board .board-header {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.login-container .login-board .board-p {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.login-container .login-board .board-image {
+  width: 80%;
+}
+
+.login-container .login-board .social-links .social-link-header {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.login-container .login-board .social-links .links {
+  display: inline-block;
+  margin: 5px 15px;
+  font-size: 2em;
+  color: white;
+}
+
+.submit-button {
+  margin-top: 40px;
+  padding: 10px 30px;
+}
+
+.submit-button .submit-icon {
+  font-size: 1em !important;
+}
+

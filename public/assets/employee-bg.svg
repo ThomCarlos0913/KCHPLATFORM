@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="942" viewBox="0 0 1920 942">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe5b00"/>
+      <stop offset="1" stop-color="#fef300" stop-opacity="0.502"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="942"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-3" width="1920" height="942"/>
+    <path id="Path_4" data-name="Path 4" class="cls-2" d="M-71.285,656.7c459.993-286.487,587.769,0,587.769,0s131.962,247.813,133,250.917,139.673,217.269,350.735-20.692,322.8-274.173,322.8-274.173,151.313-39.315,215.2,166.573,259.43,107.6,259.43,107.6l163.073-78.21v337.562h-2032Z" transform="translate(0 -146.469)"/>
+  </g>
+</svg>

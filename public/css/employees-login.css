@@ -1,0 +1,184 @@
+/*Frederick Allain G. Dela Cruz*/
+body {
+    background-image: url("/assets/employee-bg.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.login_container {
+    margin: auto;
+    margin-top: 82px;
+    width: 496px;
+    height: 546px;
+    border: 0.5px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: gray;
+    backdrop-filter: blur(10px);
+    background: linear-gradient( 
+    rgba(255, 255, 255, 0.25) 0%, 
+    rgba(255, 255, 255, 0.25) 25%, 
+    rgba(255, 255, 255, 0.25) 75%, 
+    rgba(255, 255, 255, 0.25) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6),
+     inset 0 0 2px rgba(0, 0, 0, 0.6);
+     -webkit-transition: 0.5s;
+     transition: 0.5s;
+}
+
+div.login_container img.kch_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    height: 152px ;
+    width: 223px ;
+}
+
+form.loginform_container {
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form.loginform_container div.login_user_input{
+    border: 0.5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+form.loginform_container div.login_pw_input{
+    border: 0.5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+form.loginform_container div.login_user_input input.login_input {
+    border-style: hidden;
+    height: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+form.loginform_container div.login_pw_input input.login_pw {
+    border-style: hidden;
+    height: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+form.loginform_container div.login_options {
+    margin-top: 20px;
+    padding: 0px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form.loginform_container div.login_options a.forgot_password{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+form.loginform_container div.login_options a.forgot_password:hover {
+    color: #003399;
+    text-shadow: 0 0 10px #003399;
+}
+
+form.loginform_container .submit_button {
+    border: 0.5px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #003399;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #003399;
+}
+
+form.loginform_container .button {
+    width: 200px;
+    display: block;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    -webkit-box-shadow: 0px 0px 5px 0px #003399;
+    box-shadow: 0px 0px 5px 0px #003399;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+form.loginform_container .submit_button:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px #003399;
+    box-shadow: 0px 0px 20px 0px #003399;
+}
+
+form.loginform_container .submit_button a.button:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px #003399;
+    box-shadow: 0px 0px 20px 0px #003399;
+
+}
+
+div.login_container a.help {
+    position: relative;
+    top: 90px;
+    left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+div.login_container a.help:hover {
+    color: #003399;
+    text-shadow: 0 0 10px #003399;
+}
+
+div.login_container a.termofuse {
+    position: relative;
+    top: 90px;
+    left: 170px;
+    text-decoration: none;
+    color: black;
+}
+
+div.login_container a.termofuse:hover {
+    color: #003399;
+    text-shadow: 0 0 10px #003399;
+}
+
+div.login_container a.contacts {
+    position: relative;
+    top: 90px;
+    left: 270px;
+    text-decoration: none;
+    color: black;
+}
+
+div.login_container a.contacts:hover {
+    color: #003399;
+    text-shadow: 0 0 10px #003399;
+}
+
+div.login_container p.copyright {
+    position: relative;
+    top: 100px;
+    left: 185px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

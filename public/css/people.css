@@ -1,0 +1,65 @@
+.main-container {
+  margin-top: 20px;
+}
+
+.panel-container .people-panel {
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.panel-container .people-panel .people-ellipsis {
+  color: #949494;
+}
+
+.panel-container .people-panel .people-ellipsis:hover {
+  cursor: pointer;
+}
+
+.panel-container .panel-header {
+  margin: 0px;
+  padding-bottom: 5px;
+  color: #FC8922;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid #FC8922;
+}
+
+.panel-container .panel-header .count {
+  color: #39424E;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.panel-container .panel-user {
+  margin: 15px 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel-container .panel-user .user-pic {
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.panel-container .department-supervisor {
+  margin-bottom: 20px;
+}
+
+.panel-container .department-intern {
+  margin-bottom: 20px;
+}
+
+.dropdown-item {
+  color: #39424E;
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(253, 158, 37, 0.2);
+}
+

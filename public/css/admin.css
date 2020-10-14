@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+/*/////////////////////////////////////////////////////////
+// Programmed By: John Thomas Carlos
+// Copyright © 2020
+/////////////////////////////////////////////////////////*/
+
+body {
+  background-color: #F6F6F6;
+  background-image: none;
+}
+
+.panel .admin-banner {
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  background-color: #FD9E25;
+  box-shadow: 0px 0px 5px 0px rgba(253, 158, 37, 0.5);
+}
+
+.panel .banner-info {
+  padding: 10px 20px;
+}
+
+.panel .banner-info h1,
+.panel .banner-info h2 {
+  margin: 0;
+}
+
+.panel .banner-info h1 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .panel .banner-info h1 {
+    font-size: 2em;
+  }
+}
+
+.panel .banner-info h2 {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .panel .banner-info h2 {
+    font-size: 1.2em;
+  }
+}
+
+.panel .banner-info h3 {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .panel .banner-info h3 {
+    font-size: 1em;
+  }
+}
+
+.panel .banner-info h3 span {
+  color: #165476;
+}
+
+.panel .banner-info h3 .info {
+  color: white;
+}
+
+.panel .banner-img {
+  margin-right: 20px !important;
+  display: block;
+}
+
+.panel .row {
+  margin: 0 !important;
+}
+
+.panel .row .panel-container {
+  padding: 0px;
+}
+
+.panel .row .left-panel {
+  padding-right: 20px;
+}
+
+.panel .sub-panel {
+  margin-top: 20px !important;
+  padding: 30px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.panel .sub-panel .panel-header,
+.panel .sub-panel .panel-header2 {
+  color: #39424E;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+.panel .sub-panel .panel-header2 {
+  color: #FD9E25;
+  font-size: 1em;
+}
+
+.panel .sub-panel .stat-item {
+  padding: 10px 5px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.panel .form-section .row {
+  margin-top: 20px !important;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.panel .form-section .employee,
+.panel .form-section .intern {
+  display: none;
+}
+
+.panel .form-section .last-row {
+  border-bottom: 0;
+}
+
+.panel .form-section .panel-header {
+  margin-bottom: 30px;
+  color: #39424E;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.panel .form-section .main-header {
+  color: #FD9E25;
+}
+
+.panel .form-section .next-header {
+  margin-top: 30px;
+}
+
+.panel .form-section .input-text {
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 20px;
+  color: #39424E;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  background-color: #F2F2F2;
+  border: 0;
+  border: 2px solid #F2F2F2;
+  transition: 0.3s;
+}
+
+.panel .form-section .input-text:focus {
+  border: 2px solid #FD9E25;
+}
+
+.panel .form-section .input-label {
+  font-size: 0.7em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel .form-section .select-dropdown {
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 7px 20px;
+  color: #39424E;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  background-color: #F2F2F2;
+  border: 0;
+}
+
+.panel .form-sub-panel {
+  height: auto;
+}
+
+.panel .form-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.panel .work-list-panel .work-nav-link {
+  color: #39424E;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel .work-list-panel .active {
+  font-weight: 600;
+  color: #FD9E25;
+}
+
+.panel .empty-list {
+  padding: 60px 0px;
+}
+
+.panel .empty-list .empty-box {
+  width: 40%;
+}
+
+.panel .empty-list p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #39424E;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel .modal-p {
+  color: #39424E;
+  font-size: 1em !important;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel .new-pass {
+  color: #FD9E25;
+  font-size: 1em !important;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel .users-sub-panel {
+  height: 730px;
+}
+
+.panel .users-sub-panel .user-header p {
+  color: #39424E;
+  font-size: 0.8em !important;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.panel .users-sub-panel .user-list {
+  overflow-y: scroll;
+  height: 500px;
+  overflow-y: auto;
+  scrollbar-color: #FEB632 #EAEAEA;
+  scrollbar-width: thin;
+}
+
+.panel .users-sub-panel .user-list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.panel .users-sub-panel .user-list::-webkit-scrollbar-track-piece {
+  background-color: #EAEAEA;
+}
+
+.panel .users-sub-panel .user-list::-webkit-scrollbar-thumb {
+  background-color: #FEB632;
+}
+
+.task-container {
+  margin: 15px 0px;
+  padding: 10px 30px;
+  border: 1px solid #8F8F8F;
+  border-radius: 10px;
+}
+
+.task-container .task-header {
+  color: #39424E;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 !important;
+}
+
+.task-container .task-header2 {
+  color: #39424E;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px !important;
+}
+
+.task-container p {
+  color: #8F8F8F;
+  margin: 0;
+  font-size: 0.7em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.task-container .task-thumbnail {
+  margin-left: 15px;
+}
+
+.task-container .task-ellipsis:hover {
+  cursor: pointer;
+}
+
+.task-container .task-right {
+  text-align: end;
+}
+
+.pagination .page-link {
+  color: #707070;
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pagination .active .page-link {
+  border: 1px solid #FE7501;
+  background-color: #FE7501 !important;
+}
+
